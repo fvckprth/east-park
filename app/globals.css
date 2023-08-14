@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hover-italic {
+  transition: font-style 0.3s ease;
+}
+
+.hover-italic:hover {
+  font-family: var(--font-pp-light-italic);
+}
+
