@@ -12,8 +12,7 @@ function About() {
             building ⎯{' '}
             <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">P307</a>,{' '}
             <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">Cooper’s Garden</a>,{' '}
-            <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">A Palé Films</a>
-            <span className="decoration-from-font">〖…〗</span>
+            <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">A Palé Films</a>{'〖..〗'}
           </p>
         </div>
         <div className="flex items-center space-x-1 mb-1 md:mb-2">

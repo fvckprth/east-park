@@ -23,7 +23,7 @@ const gracia = localFont({
 
 export const metadata = {
   title: 'East Park ⎯ A New York Holdings Group',
-  description: 'East Park, located in New York City, unites commerce, media, and environmental enthusiasts to build a greener, brighter future.',
+  description: 'East Park, located in New York City, unites commerce, media, and environmental enthusiasts to build a greener, brighter future. © 2023 East Park, Inc.',
   siteUrl: 'https://www.eastpark.xyz', 
   twitterHandle: '@eastpark',
 };

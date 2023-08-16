@@ -12,7 +12,7 @@ function Info() {
           things that forge a greener, more accessible,<br/>
           and joyfully brighter future.<br/>
         </p>
-        <p className="text-custom-white text-base md:text-xl">
+        <p className="pb-4 md:pb-6 text-custom-white text-base md:text-xl">
           To learn more, contact <a href="mailto:info@eastpark.xyz" className="underline underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">info@eastpark.xyz</a>
         </p>
       </div>
