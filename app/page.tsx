@@ -1,7 +1,6 @@
 import About from '@/components/About';
 import Info from '@/components/Info';
 import Media from '@/components/Media';
-import FadeEffect from '@/components/FadeEffect';
 
 export default function Home() {
   return (
@@ -11,7 +10,6 @@ export default function Home() {
         <About />
         <Info />
       </div>
-      <FadeEffect />
     </div>
   );
 }
