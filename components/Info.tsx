@@ -2,7 +2,7 @@ function Info() {
     return (
       <div className="p-6 md:p-8">
         <p className="pb-4 md:pb-6 text-custom-white text-base md:text-xl">
-          <span style={{ fontFamily: 'var(--font-pp-light-italic)' }}>East Park</span> is a group based and located in<br/>
+          <span style={{ fontFamily: 'var(--font-pp-light-italic)' }}>East Park</span> Holdings Group is located in<br/>
           New York City, New York. Created from<br/>
           a collective of passionate commerce, media,<br/>
           and environmental enthusiasts.<br/>
