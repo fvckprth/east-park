@@ -563,20 +563,14 @@ video {
 .mr-1 {
   margin-right: 0.25rem;
 }
-.block {
-  display: block;
-}
 .flex {
   display: flex;
-}
-.hidden {
-  display: none;
 }
 .h-1\/3 {
   height: 33.333333%;
 }
-.h-1\/4 {
-  height: 25%;
+.h-4 {
+  height: 1rem;
 }
 .h-5 {
   height: 1.25rem;
@@ -590,17 +584,14 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-12 {
+  height: 3rem;
+}
 .h-1\/2 {
   height: 50%;
 }
-.h-4 {
-  height: 1rem;
-}
 .w-full {
   width: 100%;
-}
-.w-screen {
-  width: 100vw;
 }
 .flex-col {
   flex-direction: column;
@@ -640,11 +631,6 @@ video {
   --tw-gradient-to: rgb(43 43 43 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-.from-\[\#121212\] {
-  --tw-gradient-from: #121212 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(18 18 18 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
 .via-\[rgba\(43\2c 43\2c 43\2c 0\.5\)\] {
   --tw-gradient-to: rgba(43, 43, 43, 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), rgba(43,43,43,0.5) var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -663,9 +649,6 @@ video {
 }
 .pb-4 {
   padding-bottom: 1rem;
-}
-.pr-1 {
-  padding-right: 0.25rem;
 }
 .font-sans {
   font-family: var(--font-pp-light), var(--font-pp-light-italic), var(--font-gracia);
@@ -785,12 +768,8 @@ html, body {
     margin-bottom: 0.5rem;
   }
 
-  .md\:block {
-    display: block;
-  }
-
-  .md\:hidden {
-    display: none;
+  .md\:h-6 {
+    height: 1.5rem;
   }
 
   .md\:h-7 {
@@ -799,14 +778,6 @@ html, body {
 
   .md\:h-8 {
     height: 2rem;
-  }
-
-  .md\:h-6 {
-    height: 1.5rem;
-  }
-
-  .md\:h-12 {
-    height: 3rem;
   }
 
   .md\:p-8 {
