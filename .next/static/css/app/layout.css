@@ -1,42 +1,3 @@
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"../public/fonts/PP-Light.ttf","weight":"400","variable":"--font-pp-light"}],"variableName":"ppLight"} ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@font-face {
-font-family: '__ppLight_d982e1';
-src: url(/_next/static/media/6850c1c87116338b-s.p.ttf) format('truetype');
-font-display: swap;
-font-weight: 400;
-}@font-face {font-family: '__ppLight_Fallback_d982e1';src: local("Arial");ascent-override: 101.14%;descent-override: 34.48%;line-gap-override: 11.49%;size-adjust: 87.01%
-}.__className_d982e1 {font-family: '__ppLight_d982e1', '__ppLight_Fallback_d982e1';font-weight: 400
-}.__variable_d982e1 {--font-pp-light: '__ppLight_d982e1', '__ppLight_Fallback_d982e1'
-}
-
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"../public/fonts/PP-LightItalic.ttf","weight":"400","variable":"--font-pp-light-italic"}],"variableName":"ppLightItalic"} ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@font-face {
-font-family: '__ppLightItalic_c7e82a';
-src: url(/_next/static/media/21e4018fde02dda2-s.p.ttf) format('truetype');
-font-display: swap;
-font-weight: 400;
-}@font-face {font-family: '__ppLightItalic_Fallback_c7e82a';src: local("Arial");ascent-override: 99.26%;descent-override: 33.84%;line-gap-override: 11.28%;size-adjust: 88.66%
-}.__className_c7e82a {font-family: '__ppLightItalic_c7e82a', '__ppLightItalic_Fallback_c7e82a';font-weight: 400
-}.__variable_c7e82a {--font-pp-light-italic: '__ppLightItalic_c7e82a', '__ppLightItalic_Fallback_c7e82a'
-}
-
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"../public/fonts/Gracia.ttf","weight":"400","variable":"--font-gracia"}],"variableName":"gracia"} ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@font-face {
-font-family: '__gracia_fa50dc';
-src: url(/_next/static/media/8df34dd58da15b3e-s.p.ttf) format('truetype');
-font-display: swap;
-font-weight: 400;
-}@font-face {font-family: '__gracia_Fallback_fa50dc';src: local("Arial");ascent-override: 141.59%;descent-override: 65.76%;line-gap-override: 0.00%;size-adjust: 55.65%
-}.__className_fa50dc {font-family: '__gracia_fa50dc', '__gracia_Fallback_fa50dc';font-weight: 400
-}.__variable_fa50dc {--font-gracia: '__gracia_fa50dc', '__gracia_Fallback_fa50dc'
-}
-
 /*!***********************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/globals.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************/
@@ -809,5 +770,44 @@ html, body {
   .md\:underline-offset-8 {
     text-underline-offset: 8px;
   }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"../public/fonts/PP-Light.ttf","weight":"400","variable":"--font-pp-light"}],"variableName":"ppLight"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__ppLight_d982e1';
+src: url(/_next/static/media/6850c1c87116338b-s.p.ttf) format('truetype');
+font-display: swap;
+font-weight: 400;
+}@font-face {font-family: '__ppLight_Fallback_d982e1';src: local("Arial");ascent-override: 101.14%;descent-override: 34.48%;line-gap-override: 11.49%;size-adjust: 87.01%
+}.__className_d982e1 {font-family: '__ppLight_d982e1', '__ppLight_Fallback_d982e1';font-weight: 400
+}.__variable_d982e1 {--font-pp-light: '__ppLight_d982e1', '__ppLight_Fallback_d982e1'
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"../public/fonts/PP-LightItalic.ttf","weight":"400","variable":"--font-pp-light-italic"}],"variableName":"ppLightItalic"} ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__ppLightItalic_c7e82a';
+src: url(/_next/static/media/21e4018fde02dda2-s.p.ttf) format('truetype');
+font-display: swap;
+font-weight: 400;
+}@font-face {font-family: '__ppLightItalic_Fallback_c7e82a';src: local("Arial");ascent-override: 99.26%;descent-override: 33.84%;line-gap-override: 11.28%;size-adjust: 88.66%
+}.__className_c7e82a {font-family: '__ppLightItalic_c7e82a', '__ppLightItalic_Fallback_c7e82a';font-weight: 400
+}.__variable_c7e82a {--font-pp-light-italic: '__ppLightItalic_c7e82a', '__ppLightItalic_Fallback_c7e82a'
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"../public/fonts/Gracia.ttf","weight":"400","variable":"--font-gracia"}],"variableName":"gracia"} ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__gracia_fa50dc';
+src: url(/_next/static/media/8df34dd58da15b3e-s.p.ttf) format('truetype');
+font-display: swap;
+font-weight: 400;
+}@font-face {font-family: '__gracia_Fallback_fa50dc';src: local("Arial");ascent-override: 141.59%;descent-override: 65.76%;line-gap-override: 0.00%;size-adjust: 55.65%
+}.__className_fa50dc {font-family: '__gracia_fa50dc', '__gracia_Fallback_fa50dc';font-weight: 400
+}.__variable_fa50dc {--font-gracia: '__gracia_fa50dc', '__gracia_Fallback_fa50dc'
 }
 
