@@ -12,7 +12,7 @@ function Media() {
         objectFit="cover"
         alt="Another Planet by Daniel Farò"
       />
-      <div className="fog-container absolute top-0 left-0 w-full h-full">
+      <div className="fog-container relative h-screen">
         <div className="fog-img fog-img-first"></div>
         <div className="fog-img fog-img-second"></div>
       </div>

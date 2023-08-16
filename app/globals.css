@@ -33,51 +33,10 @@ html, body {
   font-family: var(--font-pp-light-italic);
 }
 
-.absolute-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-  background: url("/BG_photo.jpeg");
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.title > h1 {
-  color: #fff;
-  font-size: 5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.fog {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  background: #fff;
-}
-
 .fog-container {
   position: absolute;
+  height: 100vh;
   width: 100%;
-  height: 100%;
   overflow: hidden;
   z-index: 10;
 }
