@@ -4,7 +4,7 @@ function About() {
         <div className="flex items-center space-x-0 mb-0 md:mb-1">
           <img src="/assets/copyright.svg" alt="Copyright" className="pb-1.5 mr-1 h-4 md:h-6"/>
           <p className="text-custom-white text-base md:text-2xl">
-            <span className="text-custom-white text-xl md:text-3xl" style={{ fontFamily: 'var(--font-gracia)' }}>East Park,</span>{' '}Holdings Group
+            <span className="text-custom-white text-xl md:text-3xl" style={{ fontFamily: 'var(--font-gracia)' }}>East Park</span>,{' '}Holdings Group
           </p>
         </div>
         <div>
@@ -12,8 +12,8 @@ function About() {
             building ⎯{' '}
             <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">P307</a>,{' '}
             <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">Cooper’s Garden</a>,{' '}
-            <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">A Palé Films</a>{' '}
-            [...]
+            <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">A Palé Films</a>
+            <span className="decoration-from-font">〖…〗</span>
           </p>
         </div>
         <div className="flex items-center space-x-1 mb-1 md:mb-2">
