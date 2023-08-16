@@ -2,7 +2,7 @@ function About() {
     return (
         <div className="p-6 md:p-8">
         <div className="flex items-center space-x-0 mb-0 md:mb-1">
-          <img src="/assets/copyright.svg" alt="Copyright" className="pb-1.5 mr-1 h-4 md:h-6"/>
+          <img src="/assets/copyright.svg" alt="Copyright" className="pb-1.5 h-4 md:h-6"/>
           <p className="text-custom-white text-base md:text-2xl">
             <span className="text-custom-white text-xl md:text-3xl" style={{ fontFamily: 'var(--font-gracia)' }}>East Park</span>,{' '}Holdings Group
           </p>
