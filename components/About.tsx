@@ -17,7 +17,7 @@ function About() {
         </div>
         <div className="flex items-center space-x-1 mb-1 md:mb-2">
           <img src="/assets/phone.svg" alt="Phone" className="pb-1.5 h-6 md:h-8"/>
-          <p className="text-custom-white text-base md:text-2xl">1.968.213.1203</p>
+          <p className="text-custom-white text-base md:text-2xl">1.646.759.4054</p>
         </div>
         <div className="flex items-center space-x-1 mb-1 md:mb-2">
           <img src="/assets/email.svg" alt="Email" className="pb-1.5 h-5 md:h-7"/>
