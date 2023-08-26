@@ -10,9 +10,9 @@ function About() {
         <div>
           <p className="text-custom-white text-base md:text-2xl mb-1 md:mb-2">
             building ⎯{' '}
-            <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">P307</a>,{' '}
-            <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">Cooper’s Garden</a>,{' '}
-            <a href="#" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">A Palé Films</a>{'〖..〗'}
+            <a href="https://www.p307.net" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">P307</a>,{' '}
+            <a href="https://www.coopers.garden" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">Cooper’s Garden</a>,{' '}
+            <a href="https://www.apalé.media" className="underline underline-offset-4 md:underline-offset-8 decoration-from-font hover:opacity-50 hover-italic">A Palé Films</a>{'〖..〗'}
           </p>
         </div>
         <div className="flex items-center space-x-1 mb-1 md:mb-2">
