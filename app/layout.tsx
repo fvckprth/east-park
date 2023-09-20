@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import type { Metadata } from 'next'
 import './globals.css';
 import localFont from 'next/font/local';
 
@@ -21,12 +22,38 @@ const gracia = localFont({
   variable: '--font-gracia',
 });
 
-export const metadata = {
-  title: 'East Park ⎯ A New York Holdings Group',
+export const metadata: Metadata = {
+  title: 'East Park Holdings Group ⎯ Crafting Tomorrow\'s Narratives',
   description: 'East Park is P307, Cooper’s Garden, A Palé Films, and our foundational teams. © 2023 East Park, Inc.',
-  siteUrl: 'https://www.eastpark.xyz', 
-  twitterHandle: '@eastpark',
-};
+  themeColor: '#73FFA2',
+  keywords: ['P307', 'solomonGPT', 'East Park Holdings\' Group', 'Asset Holding Company', 'New York'],
+  authors: [{ name: 'Parth Patel', url: 'https://parth.ski' }],
+  openGraph: {
+    title: 'East Park Holdings Group',
+    description: 'We invest, curate, and build with a vision of a greener, brighter, and more accessible future.',
+    url: 'https://www.eastpark.xyz',
+    siteName: 'East Park Holdings Group ⎯ Crafting Tomorrow\'s Narratives',
+    images: [
+      {
+        url: '@mountains.jpg',
+        width: 800,
+        height: 600,
+        alt: 'Mountains',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    siteId: 'Your Twitter ID',
+    creator: '@YourTwitterHandle',
+    creatorId: 'Your Twitter ID',
+    title: 'Your Application Title',
+    description: 'A brief description of your application',
+    images: ['https://image.mux.com/syVZUPM8hwRPv008dJvaOg02Dxg00Z02oT4i4lbOb4usV5c/animated.gif?fps=15&end=5'],
+  },
+}
 
 type RootLayoutProps = {
   children: React.ReactNode;
@@ -35,25 +62,6 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <Head>
-        <meta charSet="UTF-8" />
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="East Park Holdings Group" />
-        <link rel="canonical" href={metadata.siteUrl} />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="" />
-        <meta property="og:title" content={metadata.title} />
-        <meta property="og:description" content={metadata.description} />
-        <meta property="og:url" content={metadata.siteUrl} />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content={metadata.twitterHandle} />
-        <meta name="twitter:title" content={metadata.title} />
-        <meta name="twitter:description" content={metadata.description} />
-        <meta httpEquiv="content-language" content="en" />
-      </Head>
       <body className={`${ppLight.variable} ${ppLightItalic.variable} ${gracia.variable} font-sans`}>
         {children}
       </body>
