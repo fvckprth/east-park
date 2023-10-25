@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   title: 'East Park Holdings Group ⎯ Crafting Tomorrow\'s Narratives',
   description: 'East Park is P307, Cooper’s Garden, A Palé Films, and our foundational teams. © 2023 East Park, Inc.',
   themeColor: '#73FFA2',
-  keywords: ['P307', 'solomonGPT', 'East Park Holdings\' Group', 'Asset Holding Company', 'New York'],
+  keywords: ['P307', 'Amaya', 'East Park Holdings\' Group', 'Asset Holding Company', 'New York'],
   authors: [{ name: 'Parth Patel', url: 'https://parth.ski' }],
   openGraph: {
     title: 'East Park Holdings Group',

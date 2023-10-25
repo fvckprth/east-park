@@ -557,9 +557,6 @@ video {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
-.mr-1 {
-  margin-right: 0.25rem;
-}
 .flex {
   display: flex;
 }
@@ -651,10 +648,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 .text-custom-white {
   --tw-text-opacity: 1;

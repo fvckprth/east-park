@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import mountains from '../public/assets/norway.jpg';
+import mountains from '@/public/assets/norway.jpg';
 
 function Media() {
   return (
@@ -7,10 +7,12 @@ function Media() {
       <Image
         src={mountains}
         placeholder="blur"
-        quality={100}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        quality={75}
         layout="fill"
         objectFit="cover"
         alt="Another Planet by Daniel Farò"
+        priority
       />
       <div className="fog-container absolute w-full h-screen">
         <div className="fog-img fog-img-first"></div>
