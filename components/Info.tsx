@@ -3,13 +3,14 @@ function Info() {
       <div className="p-6 md:p-8">
         <p className="pb-4 md:pb-6 text-custom-white text-base md:text-xl">
           <span style={{ fontFamily: 'var(--font-pp-light-italic)' }}>East Park</span> Holdings Group is located in<br/>
-          New York City, New York. Created from<br/>
-          a collective of passionate commerce, media,<br/>
-          and environmental enthusiasts.<br/>
+          New York City, New York. Our mission is<br/>
+          to democratize advanced technologies,<br/>
+          providing localized communities the tools<br/>
+          they need to scale sustainably and effectively.
         </p>
         <p className="pb-4 md:pb-6 text-custom-white text-base md:text-xl">
-          We created this as a beacon for building<br/>
-          things that forge a greener, more accessible,<br/>
+          We invest, curate, and build initiatives that<br/>
+          collectively forge a greener, more accessible,<br/>
           and joyfully brighter future.<br/>
         </p>
         <p className="pb-4 md:pb-6 text-custom-white text-base md:text-xl">
